@@ -1,0 +1,193 @@
+body, html {
+    font-family: Arial, sans-serif;
+    background-color: #F4FCFF;
+    color: #2C4854;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.navbar {
+    background-color: #fff;
+    color: #2C4854;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar-brand img {
+    width: 150px;
+    height: auto;   
+}
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* estilo do banner */
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    color: #fff;
+    border-radius: 12px;
+    text-align: center;
+    z-index: 10;
+}
+
+.overlay h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.overlay p {
+    font-size: 1.2rem;
+    margin-bottom: 60px;
+}
+
+.btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1rem;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sobre-clac {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 36px;
+    color: #82B858;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.descricao {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.citacao {
+    font-size: 20px;
+    font-style: italic;
+    color: #444;
+    border-left: 4px solid #82B858;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.citacao span {
+    display: block;
+    font-size: 16px;
+    color: #777;
+    margin-top: 5px;
+}
+
+.subtitulo {
+    font-size: 24px;
+    color: #82B858;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+}
+
+.lista li {
+    font-size: 18px;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+.lista li strong {
+    color: #333;
+}
+
+.lista li:last-child {
+    border-bottom: none;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 28px;
+    }
+
+    .descricao, .citacao, .subtitulo, .lista li {
+        font-size: 16px;
+    }
+}
+
+/* seção do botão whatsapp */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: #25D366; /* Cor verde do WhatsApp */
+    color: #FFFFFF; /* Cor do ícone */
+    width: 60px; /* Largura igual à altura */
+    height: 60px; /* Altura igual à largura */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* Torna o botão redondo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    font-size: 24px; /* Tamanho do ícone */
+    z-index: 999; /* Garante que o botão fique acima de outros elementos */
+    transition: background 0.3s; /* Transição suave */
+    text-decoration: none; /* Remove sublinhado do link */
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E; /* Cor mais escura ao passar o mouse */
+    text-decoration: none; /* Garante que não haja sublinhado */
+}
